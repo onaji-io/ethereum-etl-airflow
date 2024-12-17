@@ -5,3 +5,16 @@ ethereum-etl==2.4.1     # Requires web3>=5.29,<6
 web3==5.31.0
 # Prevents ImportError: cannot import name 'WKBWriter' from 'shapely.geos' (/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/shapely/geos.py)
 shapely < 2.0.0
+pendulum~=2.0.0 
+
+Flask==2.2.5
+Flask-AppBuilder>=4.1.4
+Flask-Babel==2.0.0
+Flask-Bcrypt==1.0.1
+Flask-Caching==2.3.0
+Flask-JWT-Extended==4.6.0
+Flask-Limiter==3.7.0
+Flask-Login==0.6.3
+Flask-Session==0.5.0
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==1.2.1
